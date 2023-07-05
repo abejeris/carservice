@@ -2,7 +2,6 @@
 import React from 'react'
 import { NavLink, NavLinkItem, NavLinks, NavbarContainer, NavbarLogo } from './Navbar.style'
 import {ReactComponent as NavLogo} from '../../pictures/logos/logo19.svg'
-
 import { ReactComponent as PhoneLogo } from '../../pictures/logos/logo2.svg'
 
 function Navbar() {
@@ -13,19 +12,19 @@ function Navbar() {
     </NavbarLogo>
     <NavLinks>
         <NavLinkItem>
-            <NavLink href="#">Home</NavLink>
+            <NavLink to='/'>Home</NavLink>
         </NavLinkItem>
         <NavLinkItem>
-            <NavLink href="#">About us</NavLink>
+            <NavLink to="/aboutUs">About us</NavLink>
         </NavLinkItem>
         <NavLinkItem>
-            <NavLink href="#">Services</NavLink>
+            <NavLink to="/services">Services</NavLink>
         </NavLinkItem>
         <NavLinkItem>
-            <NavLink href="#">Blog</NavLink>
+            <NavLink to="/blog">Blog</NavLink>
         </NavLinkItem>
         <NavLinkItem>
-            <NavLink href="#">Contact</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
         </NavLinkItem>
         <NavLinkItem>
             <div className='line'></div>
@@ -39,7 +38,7 @@ function Navbar() {
                 </div>
            </div>
         </NavLinkItem>
-    </NavLinks>
+    </NavLinks> 
    </NavbarContainer>
   )
 }

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { styled } from "styled-components";
 
 export const NavbarContainer = styled.nav`
@@ -30,7 +31,7 @@ export const NavLinkItem = styled.li`
  
 `;
 
-export const NavLink = styled.a`
+export const NavLink = styled(Link)`
   font-family: ${props => props.theme.fonts.manrope};
   text-decoration: none;
   color: ${props => props.theme.colors.black};
