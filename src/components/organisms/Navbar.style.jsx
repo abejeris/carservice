@@ -28,7 +28,6 @@ export const NavLinkItem = styled.li`
   &:last-child {
     margin-right: 0;
   }
- 
 `;
 
 export const NavLink = styled(Link)`
@@ -36,5 +35,4 @@ export const NavLink = styled(Link)`
   text-decoration: none;
   color: ${props => props.theme.colors.black};
   font-size: 16px;
-
 `;

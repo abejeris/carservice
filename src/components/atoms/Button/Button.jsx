@@ -1,7 +1,7 @@
 import React from "react";
 import StyledButton from "./Button.style";
 
-function MyComponent() {
+function MyButton() {
     return (
       <div>
         <StyledButton>Click Me</StyledButton>
@@ -9,4 +9,4 @@ function MyComponent() {
     );
   }
 
-  export default MyComponent;
+  export default MyButton;
