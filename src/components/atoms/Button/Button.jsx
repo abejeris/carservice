@@ -1,11 +1,11 @@
 import React from "react";
 import StyledButton from "./Button.style";
 
-function MyButton() {
+function MyButton(props) {
     return (
-      <div>
-        <StyledButton>Click Me</StyledButton>
-      </div>
+    
+        <StyledButton>{props.title}</StyledButton>
+
     );
   }
 

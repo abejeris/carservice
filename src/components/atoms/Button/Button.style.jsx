@@ -1,12 +1,15 @@
 import styled from 'styled-components';
+import {theme} from '../../../theme/Theme';
+
 
 const StyledButton = styled.button`
  
-  background-color: ${props => props.theme.colors.primary};
+  background-color: ${theme.colors.primary};
   color: #fff;
-  padding: 10px 20px;
+  padding: 16px 40px;
+  width: 203px;
   border: none;
-  border-radius: 4px;
+  border-radius: 12px;
   cursor: pointer;
   font-family: manrope;
 `;

@@ -1,8 +1,15 @@
 import React from 'react'
+import Header from '../components/features/header/Header'
+import ServicesSection from '../components/features/servicesSection/ServicesSection'
+import HowOne from '../components/features/howOne/HowOne'
 
 function Services() {
   return (
-    <div>Services</div>
+    <>
+    <Header/>
+    <ServicesSection/>
+    <HowOne/>
+    </>
   )
 }
 
